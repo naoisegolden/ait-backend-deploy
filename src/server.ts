@@ -8,9 +8,6 @@ import usersRoutes from "./routes/users.routes";
 import config from "./config/config";
 
 const app: Express = express()
-const corsOptions = {
-    origin: config.app.ORIGIN
-}
 
 app.use(cors())
 app.use(express.json())
