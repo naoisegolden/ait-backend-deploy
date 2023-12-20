@@ -4,7 +4,7 @@ import {createUser, getAllUsers} from "../controllers/users.controllers";
 const usersRoutes = Router()
 
 usersRoutes.get("/", getAllUsers)
-usersRoutes.post("/",createUser)
+usersRoutes.post("/", createUser)
 
 
 export default usersRoutes
